@@ -1,6 +1,6 @@
 import random as diceroll
 
-# Python function to prompt ans return users guess
+# Python function to prompt and return users guess
 def getUserGuess ():
     userGuess = int(input ("what do you think the dice rolled value is from (1 to 6) ?"))
     # What could go potentionally wrong here?
