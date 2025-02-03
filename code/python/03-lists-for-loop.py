@@ -2,7 +2,7 @@ import sys      # Official docs: https://docs.python.org/3/library/sys.html
 import os       # Will be used to execute shell commands (note: take a look at 'subprocess' module too!)
 
 # packages to install provided as a list
-packagesToInstallList = ['tree', 'wget', 'nano', 'curl', 'express']
+packagesToInstallList = ['tree', 'wget', 'nano', 'curl', 'git']
 
 print(f"Starting my script: {sys.argv[0]}")
 print(f"All packages in list: {packagesToInstallList}")
