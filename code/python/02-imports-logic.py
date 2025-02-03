@@ -6,13 +6,13 @@ packageToInstall=None  #supplied at runtime via user input argument
 
 # The list of command line arguments passed to a Python script
 # argv is Equivalent to bash $0, $1 etc  Note: Length of list is 1 even if no args explicitly provided
-# dur to index 0 (script name) taking up 1 spot in argv list
+# due to index 0 (script name) taking up 1 spot in argv list
 numOfArgs=len(sys.argv)
 print(f"Starting my script: {sys.argv[0]} with # of args: {numOfArgs}")
 
 #True or False?
 if (numOfArgs == 1):
-    print("No argument specific, exiting")
+    print("No argument specified, exiting!")
     sys.exit(1);
 elif (numOfArgs == 2):
     print(f"Setting package to install as per first argument: {sys.argv[1]}")
