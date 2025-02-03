@@ -11,11 +11,11 @@ fi
 DIRECTORY_NAME=$1
 
 # Check if directory exists
-if [ ! -d "$DIRECTORY_NAME" ]; then
+if [ -d "$DIRECTORY_NAME" ]; then
+    echo "Directory exist. Will list files from directory $DIRECTORY_NAME ..."
+else
     echo "Directory does not exist. Exiting..."
     exit 1
-else
-    echo "Directory exist. Will list files from directory $DIRECTORY_NAME ..."
 fi
 
 ls -l $DIRECTORY_NAME
