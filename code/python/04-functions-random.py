@@ -28,3 +28,4 @@ while (randomDiceRollResult != yourGuess):
 # How could I give the user a max of 5 tries only for a bigger range of numbers like 1 to 100?
 # How would I hint to the user that their guess should be lower or higher?
 # How do I allow the user to give up and ask for the answer?
+# Can user enter a guess outside the allowable range?
