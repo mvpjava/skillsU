@@ -2,7 +2,7 @@ let taskToDoEveryday = "study!";      // let a variable that can change (block s
 const MAX_TASKS = 25;    // A constant value
 
 let username = "Bob";
-console.log('Your every day task is to: ${taskToDoEveryday}!')      // console is also web based!
+console.log(`Your every day task is to: ${taskToDoEveryday}!`)      // console is also web based!
 
 /* Process arguments from the command line
    process is a global object in Node.js (does not require importing, like 'console'). I
