@@ -4,7 +4,7 @@ const express = require("express");
 const taskApp = express();
 const PORT = 3000;
 
-let tasks = ["study!", "update linux server", "create blue/green deployment", "create API", "debug app creash"];
+let tasks = ["study!", "update linux server", "create blue/green deployment", "create API", "debug app crash"];
 
 // Start the server
 taskApp.listen(PORT, () => {
@@ -13,6 +13,7 @@ taskApp.listen(PORT, () => {
 
 // Middleware to parse POST request data (important for forms)
 taskApp.use(express.urlencoded({ extended: true }));  // Parse URL-encoded data
+
 // Serve a simple HTML page with tasks
 taskApp.get("/", (req, res) => {
     let taskList = "";  // Initialize an empty string

@@ -4,7 +4,7 @@ const express = require("express");
 const taskApp = express();
 const PORT = 3000;
 
-let tasks = ["study!", "update linux server", "create blue/green deployment", "create API", "debug app creash"];
+let tasks = ["study!", "update linux server", "create blue/green deployment", "create API", "debug app crash"];
 
 // Start the server
 taskApp.listen(PORT, () => {
